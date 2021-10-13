@@ -337,10 +337,18 @@ footer address {
 
 .content_kaki {
     display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 15px #33313187;
+    margin: 20px 0;
 }
 
-.content_kaki_left {
-    width: 130%;
+
+/* .content_kaki_left img {
+    width: %;
+} */
+
+.content_kaki_right {
+    padding: 10px;
 }
 
 .btn-gradient-3d {
@@ -410,7 +418,7 @@ footer address {
 }
 
 .page_top .content_read {
-    position: relative;
+    /*     position: relative;
     z-index: 2;
     background: -moz-linear-gradient(50% 100% 90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
     background: -webkit-linear-gradient(90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
@@ -420,12 +428,16 @@ footer address {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7C498', endColorstr='#C9DDBF' ,GradientType=0)";
     background: linear-gradient(0deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#C9DDBF', endColorstr='#F7C498', GradientType=0);
-    color: #573016;
-    padding-bottom: 2px;
-    border-bottom: 5px solid #C1B85E;
-    font-size: 1.3rem;
-    letter-spacing: 0.05em;
-    line-height: 1.9;
+    /* color: #573016; */
+    */
+    /*     padding-bottom: 2px;
+    border-bottom: 5px solid #C1B85E; */
+    /* font-size: 1.3rem; */
+    /* letter-spacing: 0.05em; */
+    /* line-height: 1.9; */
+    /*     margin: auto; */
+    background: url("../images/top/bg_main-01.jpg");
+    /*     background-size: contain; */
 }
 
 @media screen and (min-width: 768px) {
