@@ -2,9 +2,9 @@
     position: relative;
 }
 
-h1 {
+.content .fade {
     font-family: sans-serif;
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: bold;
     color: #fff;
     position: absolute;
@@ -13,6 +13,7 @@ h1 {
     right: 0;
     text-align: center;
     z-index: 2;
+    animation: fadeIn;
 }
 
 .youtube {
@@ -21,4 +22,18 @@ h1 {
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+@keyframes fadeIn {
+    /*animation-nameで設定した値を書く*/
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+    /*アニメーション終了時は不透明度100%*/
 }
