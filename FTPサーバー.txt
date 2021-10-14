@@ -1,0 +1,37 @@
+入稿系FTP
+アドレス:192.168.2.6
+
+id                    pass
+premium        adkitgf        岐阜本社
+nagoya        adkitngo    名古屋支社
+ichinomiya    adkitinm    尾張一宮支社
+mikawa        adkitmkw    三河安城支社
+hiroko-y    4326yd        山田寛子ad
+itoakiko    akko7550    伊藤あきこ
+takeichi    ysc52u19    武市由香
+toppan        052503541    凸版印刷
+sagawa        DIv9n5ha    佐川印刷
+sunmesse    Kiewhnr8    サンメッセ
+hard_disk    1132        HD
+hayasaki    k408c58o    早崎敬子
+tokyogifu   ehnI5678   東京新橋支社
+
+
+
+セブoffice
+id: cebu-jp
+pass: Hs;&(Yn7HK
+https://160.16.222.84/webdav
+
+
+
+smb://192.168.2.33
+Data5（制作・編集）
+id:seisaku-hensyu
+pass:いつもの
+
+【サーバー設定情報】	
+メインドメイン名	sub0000549013.hmk-temp.com
+IPアドレス	153.122.115.132
+管理者ID	root
+管理者パスワード	3ZF5nyBhEyKV
