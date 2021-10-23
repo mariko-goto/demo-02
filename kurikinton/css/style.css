@@ -370,6 +370,7 @@ footer address {
     font-family: 'Noto Serif JP';
     font-size: 80%;
     line-height: 1.2em;
+    /* letter-spacing: -0.1em; */
 }
 
 .main_flex dl {
@@ -377,10 +378,28 @@ footer address {
 }
 
 .main_flex h4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #660000;
     margin-bottom: 0.9rem;
+    letter-spacing: 0rem;
+}
+
+.main_flex span {
+    font-size: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .main_flex h4 {
+        font-size: 2.6rem;
+        font-weight: bold;
+        color: #660000;
+        margin-bottom: 1.9rem;
+        letter-spacing: 0rem;
+    }
+    .main_flex span {
+        font-size: 2rem;
+    }
 }
 
 
@@ -420,6 +439,9 @@ footer address {
     background: url("../img/top/bg_read-02.png") no-repeat left bottom;
     background-size: contain; } */
 
+
+/* 焼きくりきんとんここから */
+
 .yakiImg {
     max-width: 1000px;
     margin: auto;
@@ -428,16 +450,26 @@ footer address {
 
 .content_read.yaki {
     font-family: 'Noto Serif JP';
-    margin-bottom: 0.5em;
+    background-image: url("../images/top/bg_main-01.jpg");
+}
+
+.content_read.yaki p {
+    margin: 0px 0 30px;
 }
 
 
-/* ショップエリア */
+/* 焼きくり　ショップエリア */
 
 .shop_area {
-    padding: 30px 15px;
+    background-color: white;
+    padding: 30px;
     box-shadow: 3px 0 8px #ccc, -3px 0 8px #ccc;
     position: relative;
+    margin-bottom: 30px;
+}
+
+.content_read.yaki .shop_area p {
+    margin-right: 2rem;
 }
 
 .shop_area div p,
@@ -453,8 +485,9 @@ footer address {
     .shop_area div img {
         width: 35%;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 30px;
+        right: 30px;
+        margin-bottom: 10px;
     }
     .shop_area .btn_link-entry {
         margin-top: 60px;
@@ -462,7 +495,45 @@ footer address {
 }
 
 
-/* ショップエリアここまで */
+/*焼きくりきんとん ここまで */
+
+
+/* 栗ごころ　ここから */
+
+.content_read.kurigokoro {
+    text-align: center;
+    font-family: 'Noto Serif JP';
+}
+
+.kurigogoro_tit,
+.kurigogoro_tit span {
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 50px;
+    color: #651815;
+    color: rgb(101, 24, 21);
+    line-height: 4rem;
+    margin-bottom: 30px;
+}
+
+.kurigogoro_tit span {
+    font-size: 2.5rem;
+    border-top: 1px solid rgb(101, 24, 21);
+    border-bottom: 1px solid rgb(101, 24, 21);
+}
+
+@media screen and (min-width: 768px) {
+    .kurigogoro_tit {
+        font-size: 3rem;
+        line-height: 2
+    }
+    .kurigogoro_tit span {
+        font-size: 4rem;
+    }
+}
+
+
+/* 栗こころ　ここまで */
 
 .page_top .content_startBuy {
     background-color: #F5E8C9;
@@ -903,7 +974,7 @@ footer address {
     background-size: 23px;
     font-weight: 900;
     letter-spacing: 0.05em;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-right: 24px;
 }
 
