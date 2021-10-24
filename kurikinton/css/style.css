@@ -476,6 +476,7 @@ footer address {
 .shop_area div p,
 .shop_area div img {
     width: 50%;
+    align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
